@@ -1,0 +1,20 @@
+body {
+	background: black;
+}
+
+#bnav li a {
+	color: white;
+	width: 100%;
+	padding: 0;
+	}
+#bnav li a:hover {
+	width: 100%;
+	background-color: purple;
+	border-radius: 15px;
+}
+
+#bnav li a:active {
+	width: 100%;
+	background-color: purple;
+	border-radius: 15px;
+}
