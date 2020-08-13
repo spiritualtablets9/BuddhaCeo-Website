@@ -1,0 +1,35 @@
+body {
+	background: white;
+}
+
+#nav {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+
+#nav img {
+	margin-left: 50%;
+}
+
+#bnav {
+	margin: 0 25%;
+}
+
+#bnav li a {
+	color: white;
+	width: 100%;
+	padding: 0;
+	}
+#bnav li a:hover {
+	width: 100%;
+	background-color: #ad63f6;
+	border-radius: 15px;
+}
+
+#bnav .active {
+	width: 100%;
+	background-color: #ad63f6;
+	border-radius: 15px;
+}
+
