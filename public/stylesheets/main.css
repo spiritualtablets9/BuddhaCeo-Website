@@ -1,25 +1,16 @@
-body {
-	background: white;
-}
-
-#nav {
+.navbar {
 	position: absolute;
-	z-index: 2;
 	width: 100%;
+	z-index: 4;
 }
 
-#nav img {
-	margin-left: 50%;
-}
-
-#bnav {
-	margin: 0 25%;
-}
 
 #bnav li a {
+	display:block;
 	color: white;
 	width: 100%;
 	padding: 0;
+	font-family: Roboto;
 	}
 #bnav li a:hover {
 	width: 100%;
@@ -31,8 +22,60 @@ body {
 	width: 100%;
 	background-color: #ad63f6;
 	border-radius: 15px;
-}
+} 
+ 
 
 .front img {
 	border-radius: 0 0 250px 250px;
+}
+
+
+.Shape {
+  width: 504.3px;
+  height: 1025.7px;
+  object-fit: contain;
+  background-image: linear-gradient(to bottom, rgba(250, 244, 242, 0.1), rgba(120, 218, 255, 0.05) 32%, rgba(7, 113, 188, 0.1));
+}
+
+.text p {
+  font-family: Roboto;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #3b3735;
+  font-size: 17px;
+}
+
+#first img {
+	height: 570px;
+    width: 300px;
+    position: absolute;
+}
+
+#second img {
+	height: 570px;
+    width: 300px;
+    position: absolute;
+	margin-top: 30%
+}
+#work {
+  height: 250px;
+  object-fit: contain;
+  border-radius: 50px;
+  background-color: #002641;
+}
+
+#work2 p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #ffffff;
+}
+#testimonials {
+	margin-top: 20%;
 }
