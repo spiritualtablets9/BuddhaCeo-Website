@@ -1,30 +1,48 @@
+/* navbar */
 .navbar {
 	position: absolute;
+	overflow: hidden;
 	width: 100%;
 	z-index: 4;
 }
 
+#brand {
+	margin-left: 10%
+}
 
 #bnav li a {
-	display:block;
-	color: white;
-	width: 100%;
-	padding: 0;
+	margin: 10px;
 	font-family: Roboto;
+	font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
 	}
+
 #bnav li a:hover {
-	width: 100%;
 	background-color: #ad63f6;
 	border-radius: 15px;
 }
 
 #bnav .active {
-	width: 100%;
 	background-color: #ad63f6;
 	border-radius: 15px;
 } 
- 
+ .dropdown:hover>.dropdown-menu {
+  display: block;
+	 
+}
 
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+/* home page */
 .front img {
 	border-radius: 0 0 250px 250px;
 }
@@ -58,6 +76,9 @@
     position: absolute;
 	margin-top: 30%
 }
+
+/* work section */
+
 #work {
   height: 250px;
   object-fit: contain;
@@ -76,6 +97,9 @@
   text-align: center;
   color: #ffffff;
 }
+
+/* testimonials */
+
 #testimonials {
 	margin-top: 20%;
 }
