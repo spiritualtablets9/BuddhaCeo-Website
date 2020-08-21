@@ -319,4 +319,16 @@
 	padding: 30px;
 }
 
+/* contact */
 
+#contact {
+	top:20%;
+}
+#card {
+	position: relative;
+	bottom: 170px;
+}
+.contact-card {
+	padding: 20px;
+	border-radius: 25px;
+}

@@ -3,7 +3,8 @@ var express        = require("express"),
     bodyParser     = require("body-parser");
 
 var homeRoutes  = require("./routes/home"),
-	programRoutes = require("./routes/programs");
+	programRoutes = require("./routes/programs"),
+    contactRoutes = require("./routes/contact");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
@@ -12,6 +13,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.use(homeRoutes);
 app.use(programRoutes);
+app.use(contactRoutes);
 
 app.listen(3000, function() { 
   console.log('BudhaCeo app has started on port 3000'); 
