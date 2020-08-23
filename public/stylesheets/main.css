@@ -462,3 +462,7 @@
 .cimage-donate img {
 
 }
+.toggleable
+{
+display: none;
+}
