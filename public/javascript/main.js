@@ -1,8 +1,8 @@
-function expand()
+function expand(x)
 {   console.log("called")
-    document.getElementsByClassName('toggleable')[0].style.display="block";
+    document.getElementById(x).style.display="block";
 }
-function contract()
+function contract(x)
 {
-    document.getElementsByClassName('toggleable')[0].style.display="none";
+    document.getElementById(x).style.display="none";
 }
