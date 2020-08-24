@@ -57,6 +57,7 @@ router.post('/api/corporate', function (req, res) {
       } else {
         res.send('success');
       }
+    }
   } else {
     res.send('Error: '+ incomplete.join(', ') +' are missing!')
   }
