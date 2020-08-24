@@ -144,15 +144,12 @@ body {
   object-fit: contain;
   border-radius: 50px;
   background-color: #002641;
-	width: 1220px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .work-card {
 	position: relative;
 	bottom: 125px;
-	padding: 20px;
 	border-radius: 15px;
+	width: 210px;
 }
 .work-card img {
 	height: 95px;
