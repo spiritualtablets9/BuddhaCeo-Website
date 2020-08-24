@@ -30,6 +30,16 @@ router.get('/api/:type', function (req, res) {
   })
 })
 
+router.get('/api/delete/:type/:id', function (req, res) {
+  model(req.params.type).findByIdAndDelete(req.params.id, (err, deleted) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.send("deleted");
+    }
+  })
+})
+
 router.post('/api/corporate', function (req, res) {
   var corp = req.body;
 
