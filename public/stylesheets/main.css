@@ -88,6 +88,7 @@ body {
 }
 .button {
 	border-radius: 50px!important;
+	background-color: #0771bc!important;
 }
 
 /* home page */
@@ -95,8 +96,8 @@ body {
 	border-radius: 0 0 250px 250px;
 }
 .cover {
-	position: absolute;
-	bottom: 190px;
+	position: absolute!important;
+	bottom: 300px!important;
 }
 .home-carousel {
 	
@@ -110,10 +111,20 @@ body {
   object-fit: contain;
   background-image: linear-gradient(to bottom, rgba(250, 244, 242, 0.1), rgba(120, 218, 255, 0.05) 32%, rgba(7, 113, 188, 0.1));
 }
-
+.work-text {
+	font-family: Roboto;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #3b3735;
+}
 .text p {
   font-family: Roboto;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -240,6 +251,7 @@ body {
     height: 600px;
     left: 0;
     top: 1300%;
+	z-index: -1;
 }
 #pg1 img {
 	position: absolute;
@@ -256,13 +268,13 @@ body {
 	position: absolute;
     height: 600px;
     right: 0;
-	top: 410%;
+	top: 350%;
 }
 #pg4 img {
 	position: absolute;
     height: 600px;
     left: 0;
-	top: 500%;
+	top: 440%;
 	z-index: -1;
 }
 
@@ -271,7 +283,7 @@ body {
 #work {
   height: 250px;
   object-fit: contain;
-  border-radius: 50px;
+  border-radius: 30px;
   background-color: #002641;
 }
 .work-card {
@@ -356,9 +368,15 @@ body {
 	background: white;
 	padding: 60px;
 	border-radius: 20px;
-	border: 1px solid rgba(7, 113, 188, 1.26);
+	box-shadow: 0 2px 5px 0 rgba(7, 113, 188, 0.1), 0 10px 30px 0 rgba(7, 113, 188, 0.1);
+	
 }
-
+.tcara-r {
+    right: 120px!important;
+}
+.tcara-l {
+    left: 120px!important;
+}
 /* resources */
 #resources {
 	margin-top: 3%
@@ -382,6 +400,10 @@ body {
 .logo3 img {
 	height: 220px;
 	width: 220px;
+}
+.ilogo img {
+	height: 160px;
+	width: 150px;
 }
 
 #link {
@@ -576,7 +598,7 @@ body {
 	margin-top: 8%;
 	color: #73aa35;
 	font-family: Roboto;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -586,7 +608,7 @@ body {
 .objective p{
 	color: #73aa35;
 	font-family: Roboto;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -597,7 +619,7 @@ body {
 .build h1 {
 	color: #0771bc;
 		font-family: Roboto;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -609,7 +631,7 @@ margin-top: 8%;
 .build p{
 	color: #0771bc;
 	font-family: Roboto;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -626,7 +648,7 @@ margin-top: 8%;
 
 .establish h1 {
 	color: #ad63f6;
-font-size: 36px;
+font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -638,7 +660,7 @@ margin-top: 8%;
 .establish p{
 	color: #ad63f6;
 	font-family: Roboto;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -657,7 +679,7 @@ margin-top: 8%;
 }
 .another h1 {
 	color: #f89334;
-	font-size: 36px;
+	font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -670,7 +692,7 @@ margin-top: 8%;
 .another p{
 	color: #f89334;
 	font-family: Roboto;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -687,7 +709,7 @@ margin-top: 8%;
 }
 .future h1 {
 	color: #3b3735;
-	font-size: 36px;
+	font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -700,7 +722,7 @@ margin-top: 8%;
 .future p{
 	color: #3b3735;
 	font-family: Roboto;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -723,7 +745,10 @@ margin-top: 8%;
 .mentor img {
     width: 200px;
     height: 200px;
-    margin-left: 80px;
+    align-self: center;
+}
+.flagcard {
+	padding: 10px;
 }
 .card-partner img {
 	align-self: center;
@@ -740,12 +765,41 @@ margin-top: 8%;
 /* corporate program */
 
 #corporate {
-	margin-right: 10%;
+	margin-right: 20%;
 	bottom: 100px;
 }
 #media {
-	margin-top: 20%;
+	margin-top: 10%;
 }
+#c1 {
+	position: absolute;
+	height: 220px;
+}
+#c2 {
+	position: absolute;
+	height: 255px;
+	bottom: 85px;
+}
+#c3 {
+	position: absolute;
+	height: 220px;
+	bottom: 270px;
+}
+#c4 {
+	position: absolute;
+	height: 255px;
+	bottom: 100px;
+}
+#c5 {
+	position: absolute;
+	height: 220px;
+}
+.icorp {
+	
+    margin-top: 12%;
+    height: 450px;
+}
+
 
 /* Donate */
 .imgcard-donate {
