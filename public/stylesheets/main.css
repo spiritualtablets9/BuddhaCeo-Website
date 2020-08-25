@@ -151,7 +151,7 @@ body {
 }
 .eventcard {
 	padding: 23px;
-	border-radius: 20px;
+	border-radius: 20px!important;
 	box-shadow: 0 2px 5px 0 rgba(7, 113, 188, 0.13), 0 2px 10px 0 rgba(7, 113, 188, 0.13)!important;
 }
 #hg1 img {
@@ -175,9 +175,94 @@ body {
 }
 
 #hg4 img {
-	position: absolute;
+	position: absolute!important;
 	height: 600px;
 	margin-top: 300px;
+	z-index: -1;
+}
+#ag1 img {
+	position: absolute!important;
+    height: 600px;
+    right: 0;
+	top: 160%
+}
+
+#ag2 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+    top: 250%;
+}
+#ag3 img {
+	position: absolute;
+    height: 600px;
+    right: 0;
+    top: 440%;
+}
+#ag4 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+    top: 520%;
+}
+#ag5 img {
+	position: absolute;
+    height: 600px;
+    right: 0;
+    top: 700%;
+}
+#ag6 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+    top: 800%;
+}
+#ag7 img {
+	position: absolute;
+    height: 600px;
+    right: 0;
+    top: 990%;
+}
+#ag8 img {
+	position: absolute;
+    height: 600px;
+    right: 0;
+    top: 1210%;
+}
+#ag9 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+    top: 1100%;
+}
+#ag10 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+    top: 1300%;
+}
+#pg1 img {
+	position: absolute;
+    height: 600px;
+    right: 0;
+}
+#pg2 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+	top: 250%;
+}
+#pg3 img {
+	position: absolute;
+    height: 600px;
+    right: 0;
+	top: 410%;
+}
+#pg4 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+	top: 500%;
 	z-index: -1;
 }
 
@@ -192,7 +277,7 @@ body {
 .work-card {
 	position: relative;
 	bottom: 125px;
-	border-radius: 15px;
+	border-radius: 15px!important;
 	width: 210px;
 }
 .work-card img {
@@ -279,7 +364,7 @@ body {
 	margin-top: 3%
 }
 .resource-card {
-	border-radius: 20px;
+	border-radius: 20px!important;
 	padding: 11px;
 }
 #body2 {
@@ -312,6 +397,10 @@ body {
 }
 
 /* programs page */
+#arrow img {
+	position: absolute;
+	top: 370px;
+}
 
 /* cover */
 .caption {
@@ -437,8 +526,11 @@ body {
 }
 .spi-card {
 	padding: 20px;
-    border-radius: 25px;
+    border-radius: 25px!important;
 	height: 230px;
+}
+.teamcard {
+	border-radius: 20px!important;
 }
 /* contact */
 
@@ -451,16 +543,16 @@ body {
 }
 .contact-card {
 	padding: 20px;
-	border-radius: 25px;
+	border-radius: 25px!important;
 }
 .leader-card {
 	padding: 20px;
-	border-radius: 25px;
+	border-radius: 25px!important;
 	height: 245px;
 }
 .we-card {
 	padding: 45px;
-	border-radius: 25px;
+	border-radius: 25px!important;
 	height: 480px;
 }
 
@@ -639,7 +731,7 @@ margin-top: 8%;
 .card-partner {
 	padding: 23px;
 	height: 230px;
-	border-radius: 15px;
+	border-radius: 15px!important;
 }
 #partner {
 	margin-bottom: 20%;
