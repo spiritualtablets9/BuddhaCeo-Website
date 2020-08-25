@@ -1,8 +1,8 @@
 /* navbar */
 .navbar {
-	position: absolute;
-	width: 100%;
-	z-index: 8;
+	position: absolute!important;
+    z-index: 4;
+    width: 100%;
 }
 
 #navigation {
@@ -216,7 +216,6 @@ body {
 }
 
 /* testimonials */
-
 #testimonials {
 	margin-top: 5%;
 }
@@ -226,7 +225,7 @@ body {
     border: solid 1px #707070;
     background-color: #002641;
 	height: 380px;
-	position: absolute;
+	position: absolute!important;
 	z-index: 0;
 	margin-top: 170px;
 	border-radius: 30px 30px 0 0;
@@ -265,7 +264,7 @@ body {
 	height: 12px;
 }
 .tindicators {
-	bottom: 55px;
+	bottom: 55px!important;
 }
 
 .tcontent {
@@ -274,9 +273,10 @@ body {
 	border-radius: 20px;
 	border: 1px solid rgba(7, 113, 188, 1.26);
 }
+
 /* resources */
 #resources {
-	margin-top: 5%
+	margin-top: 3%
 }
 .resource-card {
 	border-radius: 20px;
