@@ -6,3 +6,4 @@ function contract(x)
 {
     document.getElementById(x).style.display="none";
 }
+

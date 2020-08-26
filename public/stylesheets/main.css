@@ -26,6 +26,35 @@
     color: #ffffff;
 	}
 
+#nhome > .active > a {
+	background-color: #0771bc
+	
+}
+#nabout > .active > a {
+	background-color: #0771bc
+	
+}
+#nevent > .active > a {
+	background-color: #0771bc
+	
+}
+#nresource > .active > a {
+	background-color: #0771bc
+	
+}
+#ncorp > .active > a {
+	background-color: #0771bc
+	
+} 
+#ndonate > .active > a {
+	background-color: #0771bc
+	
+}
+#ncontact > .active > a {
+	background-color: #0771bc
+	
+}
+
 .bnav li a:hover {
 	background-color: #ad63f6;
 	border-radius: 15px;
@@ -55,14 +84,14 @@
 
 #foot {
 	background-color: #002641;
-	padding: 85px 50px 25px 100px;
+	padding: 50px 50px 0px 100px;
 	border-radius: 150px 150px 0 0;
 }
 /* Events */
 
 #events {
 	position: relative;
-	bottom: 200px;
+	bottom: 275px;
 }
 /* carousel */
 
@@ -88,16 +117,16 @@ body {
 }
 .button {
 	border-radius: 50px!important;
-	background-color: #0771bc!important;
+	background-color: #0771bc;
 }
 
 /* home page */
 .front img {
-	border-radius: 0 0 250px 250px;
+	border-radius: 0 0 200px 200px;
 }
 .cover {
 	position: absolute!important;
-	bottom: 300px!important;
+	bottom: 350px!important;
 }
 .home-carousel {
 	
@@ -277,6 +306,51 @@ body {
 	top: 440%;
 	z-index: -1;
 }
+#cg1 img {
+	position: absolute;
+    height: 600px;
+    right: 0;
+	top: 120%;
+	z-index: -1
+}
+#cg2 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+	top: 170%;
+}
+#cg3 img {
+	position: absolute;
+    height: 600px;
+    right: 0;
+	top: 300%;
+	z-index: -1
+}
+#cg4 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+	top: 350%;
+	z-index: -1
+}
+#cg5 img {
+	position: absolute;
+    height: 600px;
+    right: 0;
+	top: 450%;
+	z-index: -1
+}
+#cg6 img {
+	position: absolute;
+    height: 600px;
+    left: 0;
+	top: 540%;
+	z-index: -1
+}
+
+
+
+
 
 /* work section */
 
@@ -427,7 +501,7 @@ body {
 /* cover */
 .caption {
     position: absolute;
-    top: 35%;
+    top: 20%;
     left: 0;
 	margin: 0 10%;
 	height: 200px;
@@ -565,7 +639,7 @@ body {
 }
 .contact-card {
 	padding: 20px;
-	border-radius: 25px!important;
+	border-radius: 15px!important;
 }
 .leader-card {
 	padding: 20px;
@@ -766,7 +840,7 @@ margin-top: 8%;
 
 #corporate {
 	margin-right: 20%;
-	bottom: 100px;
+	top: 150px;
 }
 #media {
 	margin-top: 10%;
