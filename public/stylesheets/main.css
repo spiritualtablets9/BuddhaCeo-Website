@@ -921,3 +921,35 @@ margin-top: 8%;
 {
 display: none;
 }
+
+@media (max-width:992px)
+{
+ #navigation
+ { background-color: #000000 !important;
+   opacity: 1;
+ }
+ #demo
+ {
+   top:107px;
+ }
+ .front img
+ {
+   border-radius: 0%;
+ }
+ .img-text h1
+ {
+   font-size: 20px;
+ }
+ .img-text h1
+ {
+  font-size: 20px;
+ }
+ .img-text p
+ {
+  font-size:10px;
+ }
+ #body2
+ {
+   bottom: -150px;
+ }
+}
