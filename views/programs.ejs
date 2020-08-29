@@ -6,24 +6,33 @@
         <img src="/images/programs/1.png" alt="" class="img-responsive w-100">
         <div class="caption justify-content-center">
             <div class="row">
-				<div class="col-lg-6 d-none d-lg-flex align-items-center" id="logo">
-					<img src="/images/Logos/4.png" class="img-responsive">
+				<div class="col-lg-6 d-none d-lg-flex align-items-center logo" >
+					<img src="/images/Logos/4.png" class="img-responsive" style="margin-left: 200px;">
 				</div>
-				<div class="col-lg-6 img-text">
+				<div class="col-lg-5 ml-5 img-text">
 					<h1>
 						Our Programs
 					</h1>
-					<p class="d-none d-sm-flex">
+					<p>
 						Following initial set of courses on Science of Meditation and Science of Spirituality are offered to individuals 
                         and organizations. All courses emphasize on breath-mindfulness meditation practice and include multiple long meditation sessions.  There are four key areas of wisdom and                         techniques that help a leader to become 
                         a Buddha-CEO.</p>
 				</div>
+			</div>
+			<div id="arrow">
+				<a href="#cards"><img src="/images/programs/2.png" class="img-responsive"></a>
 			</div>
         </div>
     </div>
 </div>
 
 </section>
+<div id="pg1" class="d-none d-lg-flex">
+	<img src="/images/programs/3.png">
+</div>
+<div id="pg2" class="d-none d-lg-flex">
+	<img src="/images/programs/4.png">
+</div>
 <section id="cards">
 <div class="container">
 	<div class="row justify-content-center">
@@ -105,19 +114,25 @@
 </div>
 	</div>
 </section>
+<div id="pg3" class="d-none d-lg-flex">
+	<img src="/images/programs/3.png">
+</div>
+<div id="pg4" class="d-none d-lg-flex">
+	<img src="/images/programs/4.png">
+</div>
 <section id="programs">
 <div class="container">
 	<div class="row">
-			<div class="col d-flex justify-content-center">
+			<div class="col d-flex justify-content-center logo2">
 				<img src="/images/Logos/5.png">
 			</div>
 		</div>
 		<div class="row mt-5">
-			<div class="col d-flex justify-content-center">
+			<div class="col d-flex justify-content-center text">
 				<h1>Our Programs</h1>
 			</div>
 		</div>
-	<div class="card mb-3 mt-5 imgcard">
+	<div class="card mb-3 mt-5 imgcard " id="card2">
   <div class="row no-gutters">
     <div class="col-md-4 cimage">
       <img src="/images/programs/card.png" class="card-img" alt="...">
@@ -132,7 +147,7 @@
     </div>
   </div>
 </div>
-	<div class="card mb-3 mt-2 imgcard">
+	<div class="card mb-3 mt-2 imgcard" id="card2">
   <div class="row no-gutters">
     <div class="col-md-4 cimage">
       <img src="/images/programs/card.png" class="card-img" alt="...">
@@ -147,7 +162,7 @@
     </div>
   </div>
 </div>
-	<div class="card mb-3 mt-2 imgcard">
+	<div class="card mb-3 mt-2 imgcard" id="card2">
   <div class="row no-gutters">
     <div class="col-md-4 cimage">
       <img src="/images/programs/card.png" class="card-img" alt="...">
@@ -160,7 +175,7 @@
     </div>
   </div>
 </div>
-	<div class="card mb-3 mt-2 imgcard">
+	<div class="card mb-3 mt-2 imgcard" id="card2">
   <div class="row no-gutters">
     <div class="col-md-4 cimage">
       <img src="/images/programs/card.png" class="card-img" alt="...">
@@ -173,9 +188,24 @@
     </div>
   </div>
 </div>
+	<div class="row justify-content-around" style="margin-top: 10%">
+		<div class="col-lg-4">
+			<button class="btn btn-lg w-100 button" style="background-color: #0771bc">
+				<strong style="font-size: 22px; color: white;">Past Programs</strong>
+			</button>
+		</div>
+		<div class="col-lg-4">
+			<button class="btn btn-lg w-100 button" style="background-color: #0771bc">
+				<strong style="font-size: 22px; color: white;">Upcoming Programs</strong>
+			</button>
+		</div>
+	</div>
 	</div>
 </section>
-	
+<script>
+	console.log(document.getElementById("nevent").childNodes)
+	document.getElementById("nevent").childNodes[1].style.backgroundColor="#73aa2e";
+</script>	
 	
 
 
