@@ -24,7 +24,9 @@
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-	}
+    border-radius: 15px;
+  }
+ 
 
 #nhome > .active > a {
 	background-color: #0771bc
