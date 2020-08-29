@@ -60,10 +60,10 @@
 	border-radius: 15px;
 }
 
-.bnav .active {
-	background-color: #ad63f6;
-	border-radius: 15px;
-} 
+.navbar-nav>li.nav-item.active>a.nav-link{
+  text-decoration:none;
+  color:red;
+}
  .dropdown:hover>.dropdown-menu {
   display: block;
 	 
@@ -176,7 +176,7 @@ body {
 }
 .work-text {
 	font-family: Roboto;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -492,6 +492,7 @@ body {
 .resource-card {
 	border-radius: 20px!important;
 	padding: 11px;
+	height: 350px;
 }
 #body2 {
 	position: relative;
@@ -529,13 +530,20 @@ body {
 /* programs page */
 #arrow img {
 	position: absolute;
-	top: 370px;
+	top: 410px;
 }
 
 /* cover */
 .caption {
     position: absolute;
     top: 35%;
+    left: 0;
+	margin: 0 10%;
+	height: 200px;
+}
+.carousel-caption2 {
+	position: absolute;
+    top: 20%;
     left: 0;
 	margin: 0 10%;
 	height: 200px;
@@ -664,9 +672,6 @@ body {
 }
 /* contact */
 
-#contact {
-	top:20%;
-}
 #card {
 	position: relative;
 	bottom: 170px;
@@ -706,17 +711,18 @@ body {
 	margin-top: 8%;
 	color: #73aa35;
 	font-family: Roboto;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
+  text-align: center;
 }
 .objective p{
 	color: #73aa35;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -727,19 +733,19 @@ body {
 .build h1 {
 	color: #0771bc;
 		font-family: Roboto;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
 margin-top: 8%;
-
+text-align: center;
 }
 .build p{
 	color: #0771bc;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -756,19 +762,20 @@ margin-top: 8%;
 
 .establish h1 {
 	color: #ad63f6;
-font-size: 30px;
+font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
 margin-top: 8%;
+	text-align: center;
 
 }
 .establish p{
 	color: #ad63f6;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -787,20 +794,21 @@ margin-top: 8%;
 }
 .another h1 {
 	color: #f89334;
-	font-size: 30px;
+	font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
 margin-top: 8%;
+	text-align: center;
 
 
 }
 .another p{
 	color: #f89334;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -817,20 +825,20 @@ margin-top: 8%;
 }
 .future h1 {
 	color: #3b3735;
-	font-size: 30px;
+	font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
 margin-top: 8%;
-
+text-align: center;
 
 }
 .future p{
 	color: #3b3735;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -865,10 +873,6 @@ margin-top: 8%;
 	padding: 23px;
 	height: 230px;
 	border-radius: 15px!important;
-}
-#partner {
-	margin-bottom: 20%;
-	margin-top: 10%;
 }
 /* corporate program */
 
@@ -930,7 +934,7 @@ display: none;
  }
  #demo
  {
-   top:107px;
+   top:80px;
  }
  .front img
  {
@@ -952,4 +956,42 @@ display: none;
  {
    bottom: -150px;
  }
+	.aboutimg h1 {
+		font-size: 24px;
+	}	
+	.aboutimg p {
+		font-size: 16px;
+	}
+	.caption-corp {
+		top: -18%!important;
+	}
+	#card {
+		bottom: 0px;
+	}
+	#work {
+		margin-top: 70px;
+	}
+	#work-card {
+		margin-top: 100px;
+	}
+	#events {
+		top: 80px;
+	}
+	#foot {
+		border-radius: 0;
+	}
+}
+.caption-corp {
+    position: absolute;
+    top: 20%;
+    left: 0;
+	margin: 0 10%;
+	height: 200px;
+}
+.caption-donate {
+    position: absolute;
+    top: 35%;
+    left: 0;
+	margin: 0 10%;
+	height: 200px;
 }
