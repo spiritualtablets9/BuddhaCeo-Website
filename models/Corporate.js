@@ -11,4 +11,4 @@ const CorporateSchema= new mongoose.Schema(
     additonal_info:{type:String,required:true},
 }
 );
-module.exports=mongoose.Model('Corporate',CorporateSchema)
+module.exports=mongoose.model('Corporate',CorporateSchema)
