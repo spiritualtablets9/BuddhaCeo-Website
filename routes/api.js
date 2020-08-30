@@ -65,16 +65,19 @@ router.post('/api/:type', function (req, res) {
       incomplete.push(keys);
     }
   }
+   
 
-  if(!incomplete){
+  if(incomplete.length===0){
     model(req.params.type).create(body, (err, created) => {
       if (err) {
         console.log(err);
       } else {
-        res.send('success');
+        console.log("success")
+        res.redirect("/contact")
       }
     })
   } else {
+    console.log(incomplete,"empty")
     res.send('Error: '+ incomplete.join(', ') +' are missing!')
   }
 
