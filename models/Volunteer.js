@@ -14,9 +14,9 @@ const VolunteerSchema= new mongoose.Schema(
     ],
     contribution:
     [
-        {name:{type:String},extra:{type:String}} 
+        {name:{type:String},extra:{type:String}}
     ],
     intrests:{type:String,required:true},
 }
 );
-module.exports=mongoose.Model('Volunteer',VolunteerSchema)
+module.exports=mongoose.model('Volunteer',VolunteerSchema)

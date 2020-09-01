@@ -24,7 +24,9 @@
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-	}
+    border-radius: 15px;
+  }
+ 
 
 #nhome > .active > a {
 	background-color: #0771bc
@@ -55,15 +57,28 @@
 	
 }
 
+#nabout > a:hover {
+	background-color: rgb(7, 113, 188);
+}
+#nevent > a:hover {
+	background-color: rgb(115, 170, 46);
+}
+#ncorp > a:hover {
+	background-color: rgb(7, 113, 188);
+}
+#ndonate > a:hover {
+	background-color: rgb(115, 170, 46);
+}
+
 .bnav li a:hover {
 	background-color: #ad63f6;
 	border-radius: 15px;
 }
 
-.bnav .active {
-	background-color: #ad63f6;
-	border-radius: 15px;
-} 
+.navbar-nav>li.nav-item.active>a.nav-link{
+  text-decoration:none;
+  color:red;
+}
  .dropdown:hover>.dropdown-menu {
   display: block;
 	 
@@ -176,7 +191,7 @@ body {
 }
 .work-text {
 	font-family: Roboto;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -194,6 +209,17 @@ body {
   line-height: 1.3;
   letter-spacing: 0.3px;
   text-align: center;
+  color: #3b3735;
+}
+.text li {
+	font-family: Roboto;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  text-align: left;
   color: #3b3735;
 }
 .text h1 {
@@ -227,117 +253,121 @@ body {
 	padding: 23px;
 	border-radius: 20px!important;
 	box-shadow: 0 2px 5px 0 rgba(7, 113, 188, 0.13), 0 2px 10px 0 rgba(7, 113, 188, 0.13)!important;
+	height: 100%;
 }
 #hg1 img {
 	position: absolute;
     height: 600px;
-    top: 300px;
-	right: 0;
+   top: 380px;
+    right: -210px;
 	
 }
 #hg2 img {
 	position: absolute;
     height: 600px;
     top: 500px;
-	left: 0;
+	left: -140px;
 }
 #hg3 img {
 	position: absolute;
     height: 600px;
-    top: 620px;
-    right: 0;
+    top: 650px;
+    right: -150px;
 }
 
 #hg4 img {
 	position: absolute!important;
-	height: 600px;
-	margin-top: 300px;
-	z-index: -1;
+    height: 680px;
+    margin-top: 333px;
+    left: -240px;
+    z-index: -1;
 }
 #ag1 img {
 	position: absolute!important;
-    height: 600px;
-    right: 0;
-	top: 160%
+    height: 620px;
+    right: -150px;
+    top: 150%;
 }
 
 #ag2 img {
 	position: absolute;
-    height: 600px;
-    left: 0;
-    top: 250%;
+   height: 630px;
+    left: -100px;
+    top: 235%;
 }
 #ag3 img {
 	position: absolute;
-    height: 600px;
-    right: 0;
-    top: 440%;
+    height: 620px;
+    right: -100px;
+    top: 410%;
 }
 #ag4 img {
 	position: absolute;
-    height: 600px;
-    left: 0;
-    top: 520%;
+   height: 620px;
+    left: -150px;
+    top: 485%;
 }
 #ag5 img {
 	position: absolute;
-    height: 600px;
-    right: 0;
-    top: 700%;
+   height: 680px;
+    right: -180px;
+    top: 635%;
 }
 #ag6 img {
 	position: absolute;
-    height: 600px;
-    left: 0;
-    top: 800%;
+    height: 630px;
+    left: -100px;
+    top: 725%;
+    z-index: -1!important;
 }
 #ag7 img {
 	position: absolute;
-    height: 600px;
-    right: 0;
-    top: 990%;
+   height: 600px;
+    right: -100px;
+    top: 885%;
 }
 #ag8 img {
 	position: absolute;
     height: 600px;
-    right: 0;
-    top: 1210%;
+   right: -100px;
+    top: 1095%;
 }
 #ag9 img {
 	position: absolute;
     height: 600px;
     left: 0;
-    top: 1100%;
+    top: 980%;
 }
 #ag10 img {
 	position: absolute;
-    height: 600px;
-    left: 0;
-    top: 1300%;
+   height: 630px;
+    left: -150px;
+    top: 1190%;
 	z-index: -1;
 }
 #pg1 img {
-	position: absolute;35%
-    height: 600px;
-    right: 0;
+	position: absolute;
+	top: 150%;
+    height: 700px;
+    right: -175px;
 }
 #pg2 img {
 	position: absolute;
-    height: 600px;
-    left: 0;
-	top: 250%;
+    height: 800px;
+    left: -220px;
+    top: 225%;
 }
 #pg3 img {
 	position: absolute;
-    height: 600px;
-    right: 0;
-	top: 350%;
+    height: 650px;
+    right: -150px;
+    top: 345%;
 }
 #pg4 img {
 	position: absolute;
     height: 600px;
-    left: 0;
-	top: 440%;
+    left: -100px;
+    top: 400%;
 	z-index: -1;
 }
 #cg1 img {
@@ -492,6 +522,7 @@ body {
 .resource-card {
 	border-radius: 20px!important;
 	padding: 11px;
+	height: 100%;
 }
 #body2 {
 	position: relative;
@@ -529,13 +560,20 @@ body {
 /* programs page */
 #arrow img {
 	position: absolute;
-	top: 370px;
+	top: 410px;
 }
 
 /* cover */
 .caption {
     position: absolute;
     top: 35%;
+    left: 0;
+	margin: 0 10%;
+	height: 200px;
+}
+.carousel-caption2 {
+	position: absolute;
+    top: 20%;
     left: 0;
 	margin: 0 10%;
 	height: 200px;
@@ -572,7 +610,7 @@ body {
 /* card */
 #prog p {
 	font-family: Roboto;
-  font-size: 37px;
+  font-size: 35px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -620,6 +658,7 @@ body {
 }
 .prog-card {
 	padding: 50px;
+	border-radius: 15px!important;
 }
 
 .card {
@@ -646,27 +685,26 @@ body {
 
 #programs {
 	margin-top: 10%;
-	margin-bottom: 10%;
 }
 .cimage img {
 	width: 190px;
+	height: 100%;
+	object-fit: cover;
 }
 .imgcard {
 	padding: 30px;
+	border-radius: 15px!important;
 }
 .spi-card {
 	padding: 20px;
     border-radius: 25px!important;
-	height: 230px;
+	height: 260px;
 }
 .teamcard {
 	border-radius: 20px!important;
 }
 /* contact */
 
-#contact {
-	top:20%;
-}
 #card {
 	position: relative;
 	bottom: 170px;
@@ -674,6 +712,7 @@ body {
 .contact-card {
 	padding: 20px;
 	border-radius: 15px!important;
+	height: 100%;
 }
 .leader-card {
 	padding: 20px;
@@ -706,17 +745,18 @@ body {
 	margin-top: 8%;
 	color: #73aa35;
 	font-family: Roboto;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
+  text-align: center;
 }
 .objective p{
 	color: #73aa35;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -727,19 +767,19 @@ body {
 .build h1 {
 	color: #0771bc;
 		font-family: Roboto;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
 margin-top: 8%;
-
+text-align: center;
 }
 .build p{
 	color: #0771bc;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -756,19 +796,20 @@ margin-top: 8%;
 
 .establish h1 {
 	color: #ad63f6;
-font-size: 30px;
+font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
 margin-top: 8%;
+	text-align: center;
 
 }
 .establish p{
 	color: #ad63f6;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -787,20 +828,21 @@ margin-top: 8%;
 }
 .another h1 {
 	color: #f89334;
-	font-size: 30px;
+	font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
 margin-top: 8%;
+	text-align: center;
 
 
 }
 .another p{
 	color: #f89334;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -817,20 +859,20 @@ margin-top: 8%;
 }
 .future h1 {
 	color: #3b3735;
-	font-size: 30px;
+	font-size: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;
   letter-spacing: normal;
 margin-top: 8%;
-
+text-align: center;
 
 }
 .future p{
 	color: #3b3735;
 	font-family: Roboto;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -866,14 +908,10 @@ margin-top: 8%;
 	height: 230px;
 	border-radius: 15px!important;
 }
-#partner {
-	margin-bottom: 20%;
-	margin-top: 10%;
-}
 /* corporate program */
 
 #corporate {
-	margin-right: 20%;
+	margin-right: 5%;
 	top: 150px;
 }
 #media {
@@ -912,6 +950,7 @@ margin-top: 8%;
 /* Donate */
 .imgcard-donate {
 	padding: 20px;
+	border-radius: 15px!important;
 }
 
 .cimage-donate img {
@@ -921,16 +960,23 @@ margin-top: 8%;
 {
 display: none;
 }
-
+@media (max-width:600px) {
+	.cover {
+		bottom: 275px!important;
+	}
+}
 @media (max-width:992px)
 {
- #navigation
+ #navbarSupportedContent
  { background-color: #000000 !important;
    opacity: 1;
+   border-radius: 15px;
  }
+	
  #demo
  {
-   top:107px;
+   top:80px;
+	 position: initial!important;
  }
  .front img
  {
@@ -948,8 +994,125 @@ display: none;
  {
   font-size:10px;
  }
+	.carousel-caption2 {
+		top: 35%!important;
+	}
+	#brand img {
+		height: 40px!important;
+	}
+	.eventcard {
+		margin-bottom: 20px!important;
+	}
  #body2
  {
    bottom: -150px;
  }
+	.aboutimg h1 {
+		font-size: 24px;
+	}	
+	.aboutimg p {
+		font-size: 16px;
+	}
+	.caption-corp {
+		top: -18%!important;
+	}
+	#card {
+		bottom: 0px;
+	}
+	#work {
+		margin-top: 70px;
+	}
+	#work-card {
+		margin-top: 100px;
+	}
+	#events {
+		top: 80px;
+	}
+	#foot {
+		border-radius: 0;
+	}
+	.text h1 {
+		font-size: 35px;
+	}
+	.text p {
+		font-size: 16px;
+	}
+	.text li {
+		font-size: 16px;
+	}
+	.work-text p {
+		font-size: 16px;
+	}
+	#work2 p {
+		font-size: 16px;
+		width: 90%;
+	}
+	.ctext {
+		padding: 0rem!important;
+	}
+	.ctitle {
+		padding: 0rem!important;
+	}
+	.cimage img {
+    height: 90%;
+    width: 100%;
+}
+	.button {
+		padding: 6px 12px!important;
+    font-size: 14px!important;
+	}
+	.caption-donate {
+		top: 35%!important;
+	}
+}
+.caption{
+	top: 30%!important;
+}
+.caption-corp {
+    position: absolute;
+    top: 20%;
+    left: 0;
+	margin: 0 10%;
+	height: 200px;
+}
+.caption-donate {
+    position: absolute;
+    top: 25%;
+    left: 0;
+	margin: 0 10%;
+	height: 200px;
+}
+.m-text p {
+	font-family: Roboto;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  text-align: left;
+	color: white;
+}
+.m-text h5 {
+	font-family: Roboto;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  text-align: left;
+	margin-left: 7%;
+    margin-top: 4%;
+	color: white;
+}
+.aboutmodal {
+   background-color: #002641!important;
+}
+#x {
+	 transition: all 3s;
+}
+.e-image {
+	height: 155px;
+    border-radius: 10px!important;
 }
