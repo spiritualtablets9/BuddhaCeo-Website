@@ -976,6 +976,7 @@ display: none;
  #demo
  {
    top:80px;
+	 position: initial!important;
  }
  .front img
  {
@@ -993,6 +994,12 @@ display: none;
  {
   font-size:10px;
  }
+	.carousel-caption2 {
+		top: 35%!important;
+	}
+	#brand img {
+		height: 40px!important;
+	}
  #body2
  {
    bottom: -150px;
