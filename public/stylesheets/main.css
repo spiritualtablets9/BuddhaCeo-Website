@@ -1000,6 +1000,9 @@ display: none;
 	#brand img {
 		height: 40px!important;
 	}
+	.eventcard {
+		margin-bottom: 20px!important;
+	}
  #body2
  {
    bottom: -150px;
