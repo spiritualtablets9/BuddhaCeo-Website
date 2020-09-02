@@ -13,7 +13,7 @@ router.get("/ourprograms" , function(req, res) {
 	res.render("programs");
 })
 
-router.get("/donate" , function(req, res) {
+router.get("/donations" , function(req, res) {
 	res.render("donate");
 })
 
@@ -23,6 +23,14 @@ router.get("/corporateprograms" , function(req, res) {
 
 router.get("/contact" , function(req, res) {
 	res.render("contact");
+})
+
+router.get("/meditation40d" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/6-week-guided-meditation-online-program-sep");
+})
+
+router.get("/programs" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/");
 })
 
 module.exports = router;
