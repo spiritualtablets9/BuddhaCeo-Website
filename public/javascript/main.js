@@ -11,4 +11,14 @@ $('.navbar-nav .nav-item a').click(function(){
     $(this).closest('.nav-item').siblings().removeClass('active');
     $(this).closest('.nav-item').addClass('active');
 })
+var mybutton = document.getElementById("topButton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 });
