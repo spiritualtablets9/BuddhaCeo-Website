@@ -36,5 +36,12 @@ router.get("/meditation40d" , function(req, res) {
 router.get("/programs" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/");
 })
+router.get("/kailash" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/6-weeks-nov");
+})
 
+router.get("/olympus" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-online-program");
+})
+ 
 module.exports = router;
