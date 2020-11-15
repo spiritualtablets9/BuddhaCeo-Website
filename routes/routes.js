@@ -43,5 +43,9 @@ router.get("/kailash" , function(req, res) {
 router.get("/olympus" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-online-program");
 })
+
+router.get("/meru" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/master-your-mind-season-2-a-guided-medtation-for-confidence-manifestation-3-weeks");
+})
  
 module.exports = router;
