@@ -41,7 +41,7 @@ router.get("/kailash" , function(req, res) {
 })
 
 router.get("/olympus" , function(req, res) {
-	res.redirect("https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-online-program");
+	res.redirect("https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-program-1");
 })
 
 router.get("/meru" , function(req, res) {
