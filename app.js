@@ -8,7 +8,7 @@ var routes        = require("./routes/routes"),
 //                 API WITH MONGODB BELOW
 api      = require("./routes/api");
 var mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://cluster0.cmgg5.mongodb.net/ceo?retryWrites=true&w=majority', {user: 'ceo', pass: 'jcb123'});
+mongoose.connect('mongodb+srv://cluster0.cmgg5.mongodb.net/ceo?retryWrites=true&w=majority', { useNewUrlParser: true });
 var db = mongoose.connection;
 
 app.use(bodyParser.urlencoded({extended: true}));
