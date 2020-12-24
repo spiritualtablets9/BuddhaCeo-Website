@@ -722,7 +722,7 @@ body {
 .we-card {
 	padding: 45px;
 	border-radius: 25px!important;
-	height: 480px;
+	height: 530px;
 }
 
 /* about page */
@@ -965,22 +965,29 @@ display: none;
 		bottom: 275px!important;
 	}
 }
+@media (max-width:1300px) {
+	#events {
+		top: 80px;
+	}
+	.img-text h1
+	{
+	font-size: 41px;
+	}
+	.img-text p
+	{
+	font-size: 20px;
+	}
+	.front img
+	{
+	border-radius: 0%;
+	}
+}
 @media (max-width:992px)
 {
- #navbarSupportedContent
- { background-color: #000000 !important;
-   opacity: 1;
-   border-radius: 15px;
- }
-	
  #demo
  {
    top:80px;
-	 position: initial!important;
- }
- .front img
- {
-   border-radius: 0%;
+	position: initial!important;
  }
  .img-text h1
  {
@@ -1025,9 +1032,6 @@ display: none;
 	#work-card {
 		margin-top: 100px;
 	}
-	#events {
-		top: 80px;
-	}
 	#foot {
 		border-radius: 0;
 	}
@@ -1065,6 +1069,7 @@ display: none;
 		top: 35%!important;
 	}
 }
+
 .caption{
 	top: 30%!important;
 }

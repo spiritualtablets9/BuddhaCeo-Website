@@ -6,7 +6,7 @@
 <div id="demo" class="carousel slide" data-ride="carousel" data-interval="false">
 
   <!-- Indicators -->
-  <ul class="carousel-indicators cover d-none d-lg-flex">
+  <ul class="carousel-indicators cover d-none d-xl-flex">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
@@ -23,10 +23,10 @@
        <img src="/images/carousel3/b1.jpg" alt="Chicago" class="d-cover w-100">
 		 <div class="carousel-caption2 justify-content-center home-carousel">
             <div class="row">
-				<div class="col-lg-6 d-none d-lg-flex align-items-center ilogo">
+				<div class="col-lg-6 d-none d-xl-flex align-items-center ilogo">
 					<img src="/images/Logos/4.png" class="img-responsive" style="margin-left: 200px;">
 				</div>
-				<div class="col-lg-5 img-text">
+				<div class="col-lg-12 col-xl-5 img-text">
 					<h1>
 						<%= __("Our Story") %>
 					</h1>
@@ -51,7 +51,7 @@
 						Guided Meditation for Personal Resilience and Peak Performance
 					</h1> -->
 					<p>
-						<%= __("Home slide 2 line 2") %>
+						<%- __("Home slide 2 line 2") %>
 					</p>
 					<a href="https://www.events.buddhaceo.org/event-details/6-weeks-nov" target="_blank"><button type="button" class="btn btn-primary btn-md button"><strong><%= __("Register") %></strong></button></a>
 				</div>
@@ -70,7 +70,7 @@
 						Meditation for Total Well-being
 					</h1> -->
 					<p>
-						<%= __("Home slide 3 line 2") %>
+						<%- __("Home slide 3 line 2") %>
 					</p>
 					<a href="https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-program-1" target="_blank"><button type="button" class="btn btn-primary btn-md button"><strong><%= __("Register") %></strong></button></a>
 				</div>
@@ -106,7 +106,6 @@
 					<p>
 						<%- __("Home silde Buddha-CEO programs are well structured description") %>
 					</p>
-					</br>
 					</br>
 					<h5 style="color: white;"><b>Dr. S.V. Balasubramaniam</b></h5>
 				 	<p style="font-size: 16px;"><i>Founder and Chairman, Bannari Amman Group.</i></p>
@@ -195,7 +194,7 @@ a difference to life.
                             <img class="card-img-top e-image" src="/images/carousel2/2.jpg" alt="Card image cap" style="object-fit:cover;">
                              <div class="card-body cardstyle">
 								 <h5 class="card-title"><%= __("Home card 1 title") %></h5>
-                                <p class="card-text"><%= __("Home card 1 description") %></p>
+                                <p class="card-text"><%- __("Home card 1 description") %></p>
 								  <a href="https://www.events.buddhaceo.org/event-details/6-weeks-nov" target="_blank" class="btn btn-lg btn-primary button"><%= __("Discover") %></a>
                             </div>
                         </div>
@@ -205,7 +204,7 @@ a difference to life.
 								<img class="card-img-top e-image" src="/images/carousel2/PyramidValley.jpeg" alt="Card image cap" style="object-fit:cover;">
 								 <div class="card-body cardstyle">
 									 <h5 class="card-title"><%= __("Home card 2 title") %></h5>
-									<p class="card-text"><%= __("Home card 2 description") %></p>
+									<p class="card-text"><%- __("Home card 2 description") %></p>
 									  <a href="https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-program-1" target="_blank" class="btn btn-lg btn-primary button"><%= __("Discover") %></a>
 								</div>
 							</div>
@@ -634,7 +633,7 @@ Sankara Eye Foundatation
 </div>
                   <!-- <img src="/images/Body/11.png" class="card-img-top" alt="..."> -->
                   <div class="card-body">
-                     <h5 class="card-title"><%= __("Home resources card 1 description") %></h5>
+                     <h5 class="card-title"><%- __("Home resources card 1 description") %></h5>
                     <!-- <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>
 -->                  </div>
                 </div>
@@ -646,7 +645,7 @@ Sankara Eye Foundatation
 </div>
                  <!-- <img src="/images/Body/9.png" class="card-img-top" alt="..."> -->
                   <div class="card-body">
-                     <h5 class="card-title"><%= __("Home resources card 2 description") %></h5>
+                     <h5 class="card-title"><%- __("Home resources card 2 description") %></h5>
                    <!--  <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>-->
                   </div>
                 </div>
@@ -657,7 +656,7 @@ Sankara Eye Foundatation
 					<iframe  src="https://www.youtube.com/embed/A8qHJb7Zb70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					<div class="card-body">
-                     <h5 class="card-title"><%= __("Home resources card 3 description") %></h5>
+                     <h5 class="card-title"><%- __("Home resources card 3 description") %></h5>
                    <!--  <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>-->
                   </div>
                 </div>
@@ -674,7 +673,7 @@ Sankara Eye Foundatation
 </div>
 				  <!-- <img src="/images/Body/11.png" class="card-img-top" alt="..."> -->
 				  <div class="card-body">
-					 <h5 class="card-title"><%= __("Home resources card 4 description") %></h5>
+					 <h5 class="card-title"><%- __("Home resources card 4 description") %></h5>
 					<!-- <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>
 -->                  </div>
 				</div>
@@ -686,7 +685,7 @@ Sankara Eye Foundatation
 </div>
 				 <!-- <img src="/images/Body/9.png" class="card-img-top" alt="..."> -->
 				  <div class="card-body">
-					 <h5 class="card-title"><%= __("Home resources card 5 description") %></h5>
+					 <h5 class="card-title"><%- __("Home resources card 5 description") %></h5>
 				   <!--  <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>-->
 				  </div>
 				</div>
@@ -697,7 +696,7 @@ Sankara Eye Foundatation
 							<iframe width="966" height="543" src="https://www.youtube.com/embed/RrnLD4tErJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					<div class="card-body">
-					 <h5 class="card-title"><%= __("Home resources card 6 description") %></h5>
+					 <h5 class="card-title"><%- __("Home resources card 6 description") %></h5>
 				   <!--  <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>-->
 				  </div>
 				</div>
