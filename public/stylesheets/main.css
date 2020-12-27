@@ -960,10 +960,24 @@ text-align: center;
 {
 display: none;
 }
+.carousel-control-next, .carousel-control-prev {
+	position: absolute; 
+	top: 205px
+}
 @media (max-width:600px) {
 	.cover {
 		bottom: 275px!important;
 	}
+	.front img {
+		min-height: 500px;
+	}
+	.caption-corp {
+		top: 10% !important;
+	}
+/* 	.carousel-control-next, .carousel-control-prev {
+		position: absolute; 
+		top: -201px !important;
+	} */
 }
 @media (max-width:1300px) {
 	#events {
@@ -1024,9 +1038,6 @@ display: none;
 	}	
 	.aboutimg p {
 		font-size: 16px;
-	}
-	.caption-corp {
-		top: -18%!important;
 	}
 	#card {
 		bottom: 0px;
