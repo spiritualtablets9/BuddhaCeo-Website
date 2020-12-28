@@ -28,15 +28,15 @@ app.use(express.static(__dirname + '/public'));
 app.get('/*', function (req, res, next) {
   const cookie = req.cookies;
   if (Object.keys(cookie).length > 0) {
-    if (cookie.hasOwnProperty(i18n.cookie_name)) {
+    if (cookie.hasOwnProperty(i18n_helper.cookie_name)) {
       i18n.setLocale(res, req.cookies.i18n_lang);
     }
     else {
-      res.cookie(i18n.cookie_name, defaultLocale)
+      res.cookie(i18n_helper.cookie_name, defaultLocale)
       i18n.setLocale(res, defaultLocale);
     }
   } else {
-    res.cookie(i18n.cookie_name, defaultLocale)
+    res.cookie(i18n_helper.cookie_name, defaultLocale)
     i18n.setLocale(res, defaultLocale);
   }
   next();

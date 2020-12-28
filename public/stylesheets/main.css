@@ -968,11 +968,19 @@ display: none;
 	.cover {
 		bottom: 275px!important;
 	}
+	.front {
+		background: black;
+	}
 	.front img {
 		min-height: 500px;
+		min-width:  740px;
+		opacity: 0.7;
 	}
 	.caption-corp {
 		top: 10% !important;
+	}
+	#demo .carousel-item {
+		overflow: hidden;
 	}
 /* 	.carousel-control-next, .carousel-control-prev {
 		position: absolute; 

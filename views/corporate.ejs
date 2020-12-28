@@ -1,7 +1,7 @@
 <%- include("partials/header") %>
  <section>
 <div class="row" id="box-search">
-    <div class="thumbnail text-center front">
+    <div class="thumbnail text-center front col-sm-12">
         <img src="/images/corporate/3.jpg" alt="" class="img-responsive w-100">
         <div class="caption-corp">
             <div class="row justify-content-end">
@@ -246,5 +246,10 @@ enhances all these aspects of life.”</p>
 		</div>
 	</div>
 </section>
+
+<script>
+	console.log(document.getElementById("ncorp").childNodes)
+	document.getElementById("ncorp").childNodes[1].style.backgroundColor="#0771bc";
+</script>
 
 <%- include("partials/footer") %>
