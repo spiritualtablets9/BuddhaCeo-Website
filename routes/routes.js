@@ -52,9 +52,11 @@ router.get("/Atlas" , function(req, res) {
 router.get("/donate" , function(req, res) {
 	res.redirect("https://milaap.org/fundraisers/support-buddha-ceo-quantum-foundation?utm_source=whatsapp&utm_medium=thank_you&mlp_referrer_id=3654504");
 })
-router.get("/eye-jan" , function(req, res) {
+router.get("/indus" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/eye-jan");
 })
+
+
 
 
 
