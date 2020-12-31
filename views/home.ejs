@@ -6,7 +6,7 @@
 <div id="demo" class="carousel slide" data-ride="carousel" data-interval="false">
 
   <!-- Indicators -->
-  <ul class="carousel-indicators cover d-none d-lg-flex">
+  <ul class="carousel-indicators cover d-none d-xl-flex">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
@@ -23,20 +23,14 @@
        <img src="/images/carousel3/b1.jpg" alt="Chicago" class="d-cover w-100">
 		 <div class="carousel-caption2 justify-content-center home-carousel">
             <div class="row">
-				<div class="col-lg-6 d-none d-lg-flex align-items-center ilogo">
+				<div class="col-lg-6 d-none d-xl-flex align-items-center ilogo">
 					<img src="/images/Logos/4.png" class="img-responsive" style="margin-left: 200px;">
 				</div>
-				<div class="col-lg-5 img-text">
+				<div class="col-lg-12 col-xl-5 img-text">
 					<h1>
-						Our Story
+						<%= __("Our Story") %>
 					</h1>
-					<p>
-						Buddha-CEO Quantum Foundation, a non-profit entity, provides transformative meditation wisdom &amp; techniques 
-in a scientific voice to all leaders and aspiring leaders, 
-in a compassionate &amp; friendly environment.
-The foundation enables people to transform inside
-out, and inspires them to develop corporate socio-spiritual responsibility for greater community harmony &amp; prosperity.
-                            </p>
+					<p> <%= __("Our Story Home Description") %> </p>
 				</div>
 			</div>
         </div>
@@ -51,15 +45,15 @@ out, and inspires them to develop corporate socio-spiritual responsibility for g
 			<div class="row justify-content-end mr-4">
 				<div class="col-lg-6 img-text">
 					<p>
-						Kailash - A 6-Weeks Guided Meditation Online Program
+						<%= __("Home slide 2 line 1") %>
 					</p>
 					<!-- <h1>
 						Guided Meditation for Personal Resilience and Peak Performance
 					</h1> -->
 					<p>
-						Discover Personal Resilience and Peak Performance through a Daily Breath-Mindfulness Meditation Practice.
+						<%- __("Home slide 2 line 2") %>
 					</p>
-					<a href="https://www.events.buddhaceo.org/event-details/6-weeks-nov" target="_blank"><button type="button" class="btn btn-primary btn-md button"><strong>Register</strong></button></a>
+					<a href="https://www.events.buddhaceo.org/event-details/6-weeks-nov" target="_blank"><button type="button" class="btn btn-primary btn-md button"><strong><%= __("Register") %></strong></button></a>
 				</div>
 			</div>
 		</div>
@@ -70,31 +64,30 @@ out, and inspires them to develop corporate socio-spiritual responsibility for g
 			<div class="row justify-content-end mr-4">
 				<div class="col-lg-6 img-text">
 					<p>
-						Olympus - A 6-Weeks Guided Meditation Program
+						<%= __("Home slide 3 line 1") %>
 					</p>
 					<!-- <h1>
 						Meditation for Total Well-being
 					</h1> -->
 					<p>
-						Discover Personal Resilience, Power of Thankfulness & Science of Manifestation through a Daily Breath-Mindfulness Meditation Practice. And in this end of the year period, boost the joy of your Thanksgiving, Diwali and all Festive Season celebrations with increased energy, compassion & gratitude.
+						<%- __("Home slide 3 line 2") %>
 					</p>
-					<a href="https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-program-1" target="_blank"><button type="button" class="btn btn-primary btn-md button"><strong>Register</strong></button></a>
+					<a href="https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-program-1" target="_blank"><button type="button" class="btn btn-primary btn-md button"><strong><%= __("Register") %></strong></button></a>
 				</div>
 			</div>
 		</div>
     </div>
 	  <div class="carousel-item front">
-      <img src="/images/carousel3/b4.jpg" alt="New York" class="d-cover w-100">
+	  <img src="/images/carousel3/b4.jpg" alt="New York" class="d-cover w-100">
 		  <div class="carousel-caption2 justify-content-end home-carousel">
 			<div class="row justify-content-end mr-4">
 				<div class="col-lg-6 img-text">
 		
 					<h1>
-						Who is a Buddha-CEO
+						<%= __("Home silde Who is a Buddha-CEO title") %>
 					</h1>
 					<p>
-						Buddha-CEO is a leader who is compassionate, energetic, equanimous, intuitive, friendly, growth minded, create and purpose driven. With regular practice of meditation and learning right meditation wisdom, anyone grows into
-a Buddha-CEO.
+						<%= __("Home silde Who is a Buddha-CEO description") %>
 					</p>
 					
 				</div>
@@ -108,14 +101,13 @@ a Buddha-CEO.
 				<div class="col-lg-6 img-text">
 		
 					<h1>
-							Buddha-CEO programs are well structured	
+						<%= __("Home silde Buddha-CEO programs are well structured title") %>
 					</h1>
 					<p>
-							 "Meditation is truly transforming lives. I am convinced it aids in individual and
-							 business growth. I feel energetic throughout the day. I truly enjoy the process of
-							 meditation. The programs are very well structured and taught by Chandra."
+						<%- __("Home silde Buddha-CEO programs are well structured description") %>
 					</p>
-					
+					<p style="margin-bottom:0px"><b>Dr. S.V. Balasubramaniam</b></p>
+				 	<p><i>Founder and Chairman, Bannari Amman Group.</i></p>
 				</div>
 			</div>
 		</div>
@@ -179,10 +171,10 @@ a difference to life.
 
   <!-- Left and right controls -->
 	<div class="ilindi">
-		<a class="carousel-control-prev" href="#demo" data-slide="prev" style="position: absolute; top: 205px">
+		<a class="carousel-control-prev" href="#demo" data-slide="prev">
     <span><img src="/images/Body/il.png" style="height: 25px; width: 50px;"></span>
   </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next" style="position: absolute; top: 205px">
+  <a class="carousel-control-next" href="#demo" data-slide="next">
     <span><img src="/images/Body/ir.png" style="height: 25px; width: 50px;"></span>
   </a>
 	</div>
@@ -200,9 +192,9 @@ a difference to life.
 					<div class="card eventcard mb-3">
                             <img class="card-img-top e-image" src="/images/carousel2/2.jpg" alt="Card image cap" style="object-fit:cover;">
                              <div class="card-body cardstyle">
-								 <h5 class="card-title">Kailash - A 6-Weeks Guided Meditation Online Program</h5>
-                                <p class="card-text">Discover Personal Resilience and Peak Performance through a Daily Breath-Mindfulness Meditation Practice.</p>
-								  <a href="https://www.events.buddhaceo.org/event-details/6-weeks-nov" target="_blank" class="btn btn-lg btn-primary button">Discover</a>
+								 <h5 class="card-title"><%= __("Home card 1 title") %></h5>
+                                <p class="card-text"><%- __("Home card 1 description") %></p>
+								  <a href="https://www.events.buddhaceo.org/event-details/6-weeks-nov" target="_blank" class="btn btn-lg btn-primary button"><%= __("Discover") %></a>
                             </div>
                         </div>
 				</div>
@@ -210,9 +202,9 @@ a difference to life.
 						<div class="card eventcard mb-3">
 								<img class="card-img-top e-image" src="/images/carousel2/PyramidValley.jpeg" alt="Card image cap" style="object-fit:cover;">
 								 <div class="card-body cardstyle">
-									 <h5 class="card-title">Olympus - A 6-Weeks Guided Meditation Program</h5>
-									<p class="card-text">Discover Personal Resilience, Power of Thankfulness & Science of Manifestation through a Daily Breath-Mindfulness Meditation Practice. And in this end of the year period, boost the joy of your Thanksgiving, Diwali and all Festive Season celebrations with increased energy, compassion & gratitude.</p>
-									  <a href="https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-program-1" target="_blank" class="btn btn-lg btn-primary button">Discover</a>
+									 <h5 class="card-title"><%= __("Home card 2 title") %></h5>
+									<p class="card-text"><%- __("Home card 2 description") %></p>
+									  <a href="https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-program-1" target="_blank" class="btn btn-lg btn-primary button"><%= __("Discover") %></a>
 								</div>
 							</div>
 					</div>
@@ -236,23 +228,20 @@ a difference to life.
 		</div>
 		<div class="row mt-5">
 			<div class="col d-flex justify-content-center text">
-				<h1>Our Work</h1>
+				<h1><%= __("Our Work") %></h1>
 			</div>
 		</div>
 		
 		<div class="row mt-5 justify-content-center">
 			<div class="col col-lg-12 work-text">
 					<p>
-					Buddha-CEO Quantum Foundation provides transformative meditation wisdom & techniques to all leaders/aspiring leaders, in a compassionate & friendly environment and inspires them to                       develop corporate socio-spiritual responsibility (CSR+) for greater community harmony & prosperity.
+					<%= __("Home our work line 1") %>	
 					</p>
 				<p class="mt-5">
-                   We wish to see that all business leaders and entrepreneurs, young or old alike,  become meditators and transform themselves into compassionate 
-                   and creative individuals with complete clarity.
+					<%= __("Home our work line 2") %>
 					</p>
 				<p class="mt-5">
-					We help them grow their organisations with a higher sense of purpose 
-                    towards their employees, communities and larger society, thereby 
-                    contributing to world harmony and individual fulfilment.
+					<%= __("Home our work line 3") %>
 			   </p>
 			</div>
 		</div>
@@ -268,8 +257,7 @@ a difference to life.
 						  <div class="row justify-content-center ">
 					<div class="col-sm-4 col-lg-8 " id="work2">
 						<p>
-							We empower organizational leaders, entrepreneurs and graduating students 
-                            with non-religious, scientific spiritual wisdom and meditation techniques by 
+							<%= __("Home about section") %>
 						</p>
 					</div>
 				</div>
@@ -289,7 +277,7 @@ a difference to life.
 						<div class="card work-card mb-2" id="card1">
                             <img class="card-img-top mt-4 mb-2" src="/images/Body/5.png" alt="Card image cap" style="height: 75px; width: 50px">
                              <div class="card-body cardstyle">
-                                <p class="card-text">Organizing spiritual wisdom workshops and meditation sessions</p>
+                                <p class="card-text"><%= __("Home about section card 1") %></p>
                             </div>
                         </div>
 					</div>
@@ -297,7 +285,7 @@ a difference to life.
 					 	<div class="card work-card mb-2" id="card4">
                             <img class="card-img-top mt-4 mb-2" src="/images/Body/6.png" alt="Card image cap" style="height: 75px; width: 55px">
                              <div class="card-body cardstyle">
-                                <p class="card-text">Publishing and distributing focused meditation science literature</p>
+                                <p class="card-text"><%= __("Home about section card 2") %></p>
                             </div>
                         </div>
 					</div>
@@ -305,7 +293,7 @@ a difference to life.
 						<div class="card work-card mb-2" id="card2">
                             <img class="card-img-top mt-4 mb-2" src="/images/Body/7.png" alt="Card image cap" style="height: 75px; width: 60px">
                              <div class="card-body cardstyle">
-                                <p class="card-text">Creating awareness through community centres and events</p>
+                                <p class="card-text"><%= __("Home about section card 3") %></p>
                             </div>
                         </div>
 					</div>
@@ -313,7 +301,7 @@ a difference to life.
 						<div class="card work-card mb-2" id="card3">
                             <img class="card-img-top mt-4 mb-2" src="/images/Body/8.png" alt="Card image cap" style="height: 75px; width: 70px">
                              <div class="card-body cardstyle">
-                                <p class="card-text">Supporting others who are working towards similar vision</p>
+                                <p class="card-text"><%= __("Home about section card 4") %></p>
                             </div>
 			</div>
 		</div>
@@ -333,7 +321,7 @@ a difference to life.
 		</div>
 		<div class="row mt-5 mb-5">
 			<div class="col d-flex justify-content-center text">
-				<h1>Testimonials</h1>
+				<h1><%= __("Testimonials") %></h1>
 			</div>
 		</div>
 	</div>
@@ -633,7 +621,7 @@ Sankara Eye Foundatation
 		</div>
 		<div class="row mt-5">
 			<div class="col d-flex justify-content-center text">
-				<h1>Resources</h1>
+				<h1><%= __("Resources") %></h1>
 			</div>
 		</div>
 		<div class="row mt-5 justify-content-around">
@@ -644,7 +632,7 @@ Sankara Eye Foundatation
 </div>
                   <!-- <img src="/images/Body/11.png" class="card-img-top" alt="..."> -->
                   <div class="card-body">
-                     <h5 class="card-title">Introduction to Anapanasati Meditation</h5>
+                     <h5 class="card-title"><%- __("Home resources card 1 description") %></h5>
                     <!-- <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>
 -->                  </div>
                 </div>
@@ -656,7 +644,7 @@ Sankara Eye Foundatation
 </div>
                  <!-- <img src="/images/Body/9.png" class="card-img-top" alt="..."> -->
                   <div class="card-body">
-                     <h5 class="card-title">How to effectively perform Anger Management through Breath Mindfulness Meditation</h5>
+                     <h5 class="card-title"><%- __("Home resources card 2 description") %></h5>
                    <!--  <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>-->
                   </div>
                 </div>
@@ -667,7 +655,7 @@ Sankara Eye Foundatation
 					<iframe  src="https://www.youtube.com/embed/A8qHJb7Zb70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					<div class="card-body">
-                     <h5 class="card-title">Learn REM sleep through Breath Mindfulness Meditation</h5>
+                     <h5 class="card-title"><%- __("Home resources card 3 description") %></h5>
                    <!--  <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>-->
                   </div>
                 </div>
@@ -684,7 +672,7 @@ Sankara Eye Foundatation
 </div>
 				  <!-- <img src="/images/Body/11.png" class="card-img-top" alt="..."> -->
 				  <div class="card-body">
-					 <h5 class="card-title">40 days of Meditation brought so many changes in my work and family - life Lakshmi</h5>
+					 <h5 class="card-title"><%- __("Home resources card 4 description") %></h5>
 					<!-- <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>
 -->                  </div>
 				</div>
@@ -696,7 +684,7 @@ Sankara Eye Foundatation
 </div>
 				 <!-- <img src="/images/Body/9.png" class="card-img-top" alt="..."> -->
 				  <div class="card-body">
-					 <h5 class="card-title">Meditation is a miracle in my life - Divya</h5>
+					 <h5 class="card-title"><%- __("Home resources card 5 description") %></h5>
 				   <!--  <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>-->
 				  </div>
 				</div>
@@ -707,7 +695,7 @@ Sankara Eye Foundatation
 							<iframe width="966" height="543" src="https://www.youtube.com/embed/RrnLD4tErJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					<div class="card-body">
-					 <h5 class="card-title">I want to introduce meditation to as many people as possible - Rekha</h5>
+					 <h5 class="card-title"><%- __("Home resources card 6 description") %></h5>
 				   <!--  <p class="card-text">Return to your soul nature.Return to your soul nature.Return to your soul </p>-->
 				  </div>
 				</div>

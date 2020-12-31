@@ -29,35 +29,76 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto mr-auto bnav">
       <li class="nav-item"  id="nhome">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/"><%= __("Home") %> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item"  id="nabout">
-        <a class="nav-link" href="/about">About</a>
+        <a class="nav-link" href="/about"><%= __("About") %></a>
       </li>
       <li class="nav-item" id="nevent">
         <a class="nav-link" href="/ourprograms" >  <!-- id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-          Events
+          <%= __("Events") %>
         </a>
         </li>
        
       <li class="nav-item d-none" id="nresource">
-        <a class="nav-link" href="https://www.blog.buddhaceo.org/">Resources</a>
+        <a class="nav-link" href="https://www.blog.buddhaceo.org/"><%= __("Resources") %></a>
       </li>
 		<li class="nav-item" id="ncorp">
-        <a class="nav-link" href="/corporateprograms">Corporate Programs</a>
+        <a class="nav-link" href="/corporateprograms"><%= __("Corporate Programs") %></a>
       </li>
 		<li class="nav-item" id="ndonate">
-        <a class="nav-link" href="/donations">Donate</a>
+        <a class="nav-link" href="/donations"><%= __("Donate") %></a>
       </li>
 		<li class="nav-item ncontact " id="ncontact">
-        <a class="nav-link" href="/contact">Contact</a>
+        <a class="nav-link" href="/contact"><%= __("Contact") %></a>
       </li>
+    <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          <% var currentLocale = localesInfo[locale].typographical_name
+              currentLocale = currentLocale.charAt(0).toUpperCase() + currentLocale.slice(1); %>
+          aria-haspopup="true" aria-expanded="false"><%= currentLocale %></a>
+        <div class="dropdown-menu dropdown-primary lang-locale" style="cursor: pointer;" aria-labelledby="navbarDropdownMenuLink">
+          <% for (localeKey in localesInfo) { var localeInfo = localesInfo[localeKey] %>
+            <div class="dropdown-item" data-locale=<%= localeKey %> onClick=setLocaleCookie('<%= localeKey %>')><%= localeInfo.name %>  (<%= localeInfo.typographical_name %>) </div>
+          <% } %>
+        </div>
+      </li> -->
     </ul>
+    <ui class="navbar-nav ml-auto mr-auto bnav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          <% var currentLocale = localesInfo[locale].typographical_name
+              currentLocale = currentLocale.charAt(0).toUpperCase() + currentLocale.slice(1); %>
+          aria-haspopup="true" aria-expanded="false"><%= currentLocale %></a>
+        <div class="dropdown-menu dropdown-primary lang-locale" style="cursor: pointer;" aria-labelledby="navbarDropdownMenuLink">
+          <% for (localeKey in localesInfo) { var localeInfo = localesInfo[localeKey] %>
+            <div class="dropdown-item" data-locale=<%= localeKey %> onClick=setLocaleCookie('<%= localeKey %>')><%= localeInfo.name %>  (<%= localeInfo.typographical_name %>) </div>
+          <% } %>
+        </div>
+      </li>
+    </ui>
   </div>
 </nav>
+<!-- <div class="dropdown">
+  <button
+    class="btn btn-primary dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    data-mdb-toggle="dropdown"
+    aria-expanded="false"
+  >
+  <% var currentLocale = localesInfo[locale].typographical_name
+  currentLocale = currentLocale.charAt(0).toUpperCase() + currentLocale.slice(1); %>
+  <%= currentLocale %>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <% for (localeKey in localesInfo) { var localeInfo = localesInfo[localeKey] %>
+      <li class="dropdown-item" data-locale=<%= localeKey %> onClick=setLocaleCookie('<%= localeKey %>')><%= localeInfo.name %>  (<%= localeInfo.typographical_name %>) </li>
+    <% } %>
+  </ul>
+</div>       -->
 		<!-- newsletter signup -->
  <!-- Button trigger modal -->
-
 
 <!-- Modal -->
 <div class="modal fade" id="Newsletter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

@@ -22,3 +22,9 @@ function scrollFunction() {
   }
 }
 });
+
+function setLocaleCookie(locale) {
+  document.cookie="i18n_lang="+locale;
+  window.location.reload();
+  //window.location = window.location 
+}
