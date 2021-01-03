@@ -1,17 +1,16 @@
 <%- include("partials/header") %>
  <section>
 <div class="row" id="box-search">
-    <div class="thumbnail text-center front">
+    <div class="thumbnail text-center front col-sm-12">
         <img src="/images/corporate/3.jpg" alt="" class="img-responsive w-100">
         <div class="caption-corp">
             <div class="row justify-content-end">
 				<div class="col-lg-5 img-text justify-content-end" id="corporate">
-					
-					<p class=" d-sm-flex">
-						The Buddha-CEO foundation in association with some of its partners, is offering its programs tailor made to large organizations, corporations and governments. All the                              programs are based on powerful practice of breath-mindfulness meditation and its benefits in gaining personal fulfilment and organizational growth.
+					<p>
+						<%- __("Corporate programs description") %>
                             </p>
 					<div>
-						<a href="https://www.events.buddhaceo.org/contact" target="_blank"><button type="button" class="btn btn-primary btn-md button" style="margin-right: 100%;">Register</button></a>
+						<a href="https://www.events.buddhaceo.org/contact" target="_blank"><button type="button" class="btn btn-primary btn-md button" style="margin-right: 100%;"><%= __("Register") %></button></a>
 					</div>
 					
 				</div>
@@ -209,62 +208,48 @@ enhances all these aspects of life.”</p>
 <div class="container">
 	<div class="row mt-5 justify-content-center">
 			<div class="col col-lg-12 text">
-					<p>When you spend just few minutes surfing the internet, we discover so many success stories around the world on famous CEOs and Business Leaders (SAP, Apple, Google, Medtronic, SalesForce, Ford Motor, etc…), as well as athletes, actors, scientists, doctors, professors, government officials who have been practicing meditation, and have deployed the practice across their organizations, corporations, hospitals, police departments, schools, universities, teams, etc.
-</p>
-				<p class="mt-5">
-					If you search into many organizational internal portals, you will discover a wealth of content on mindfulness & meditation, which has been listed as a “success skill” by several organizations, including IBM and Google.</p>
-				<p class="mt-5">
-					Proven by many ancient practices and now corroborated well by neuroscience, quantum physics, epigenetics and branches of modern sciences, meditation is the foundational practice to nurture a mindful life and a growth mindset in any organization. It will foster both individual and organizational programs covering: 
-
-				</p>
+					<p><%= __("Corporate programs card 1 description") %></p>
+				<p class="mt-5"><%- __("Corporate programs card 2 description") %></p>
+				<p class="mt-5"><%- __("Corporate programs card 3 description") %></p>
 			</div>
 		</div>
 	<div class="row mt-5 objective objective-box justify-content-center">
 			<div class="col col-lg-12 text">
-					<p>Mindfulness which means focused, collaborative, inclusive and creative culture and workplace.
-</p>
+					<p><%- __("Corporate programs card 4 description") %></p>
 			</div>
 		</div>
 	<div class="row mt-2 build build-box justify-content-center">
 			<div class="col col-lg-12 text">
-					<p>Personal resilience which is about sustaining high performance and being at your best in any circumstance.
- </p>
+					<p><%- __("Corporate programs card 5 description") %></p>
 			</div>
 		</div>
 	<div class="row mt-2 establish establish-box justify-content-center">
 			<div class="col col-lg-12 text">
-					<p>Growth Mindset which means embracing change, new challenges, bold goals and
-new learnings with an open mind and enthusiasm.
-                     </p>
+					<p><%- __("Corporate programs card 6 description") %></p>
 			</div>
 		</div>
 	<div class="row mt-2 another another-box justify-content-center">
 			<div class="col col-lg-12 text">
-					<p>Engaged and accountable workforce, ready to actively embrace business & life situations, 
-be essential to the world, and enjoying the journey.
-
-                     </p>
+					<p><%- __("Corporate programs card 7 description") %></p>
 			</div>
 		</div>
 	<div class="row mt-2 objective objective-box justify-content-center">
 			<div class="col col-lg-12 text">
-					<p>Positive leaders which is about managing teams with trust, transparency, 
-equanimity, optimism and empathy.
-
-</p>
+					<p><%- __("Corporate programs card 8 description") %></p>
 			</div>
 		</div>
 	<div class="row mt-5 justify-content-center">
 			<div class="col col-lg-12 text">
-					<p>Anyone in any job and role, at any age can practice meditation, and without necessarily holding on to any religious or mystical philosophy. </p>
-
-<p>Meditation is very, very easy to practice. In this program, participants will learn and practice a very simple <i><strong>breath mindfulness meditation</strong></i> technique. 
-
-</p>
-				
+					<p><%= __("Corporate programs card 9 description") %></p>
+					<p><%- __("Corporate programs card 10 description") %></p>
 			</div>
 		</div>
 	</div>
 </section>
+
+<script>
+	console.log(document.getElementById("ncorp").childNodes)
+	document.getElementById("ncorp").childNodes[1].style.backgroundColor="#0771bc";
+</script>
 
 <%- include("partials/footer") %>

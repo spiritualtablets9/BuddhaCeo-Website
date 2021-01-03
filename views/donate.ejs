@@ -1,21 +1,16 @@
 <%- include("partials/header") %>
  <section>
 <div class="row">
-    <div class="thumbnail text-center front">
+    <div class="thumbnail text-center front col-sm-12">
         <img src="/images/donate/1.png" alt="" class="img-responsive w-100">
         <div class="caption-donate justify-content-center">
             <div class="row">
 				<div class="col-lg-12 img-text">
 					<h1>
-						Contribute Today
+						<%= __("Donate section title")%>
 					</h1>
-					<p>The foundation primarily relies on donations to run its activities and operations.
-              Additionally, We support several projects that teach, promote and create awareness
-              about meditation and spiritual science. </p>
-
-<p class="mt-4">Your generous contributions today will make a huge difference in the lives of
-    many. Kindly find below current campaigns for donations. Thank you. </p>
-
+					<p><%= __("Donate section discription line 1")%></p>
+          <p class="mt-4"><%= __("Donate section discription line 2")%></p>
 <!-- <p class="mt-4 d-none d-lg-flex">In addition, the foundation incurs technology costs, promotional costs, digital content development costs including meditation music development, logistics costs and office space costs.</p>  -->
 
 <!-- <p class="mt-4 d-none d-lg-flex">There are multiple ways we can stay connected, whether it is for a simple query or for a long term association. </p> -->
@@ -64,12 +59,9 @@
     </div>
     <div class="col-md-8">
       <div class="card-body ctext">
-        <h5 class="card-title">Buddha-CEO Quantum Foundation Infrastructures and Operations Fund
-         </h5>
-        <p>The “Buddha-CEO Quantum Foundation” a spiritual non-profit trust registered in Karnataka, India.. provides transformative meditation wisdom and techniques with a scientific voice to all leaders / aspiring leaders, in a compassionate and friendly environment. The Foundation enables people to  transform inside out  and inspires them to develop  Corporate Socio – Spiritual Responsibility  for a greater Community Harmony  &   Prosperity. The Foundation primarily relies on donations to run its activities and operations. Additionally, we support several projects that teach, promote and create awareness about meditation and spiritual science. Your generous contributions today will make a huge difference in the lives of many. 
-        </br></br> The foundation is hiring teachers, facilitators, promotional team members, content team members, publishing team and operations team to carry out its activities. 
-        </p>
-		  <button type="button"  class="btn btn-primary btn-lg button" style="margin-left: 75%"><a href=" https://milaap.org/fundraisers/support-buddha-ceo-quantum-foundation?utm_source=whatsapp&utm_medium=thank_you&mlp_referrer_id=3654504" target="_blank" style="color:#ffffff;text-decoration:none">Donate</a></button>      
+        <%- __("Donate card title") %>
+        <p><%- __("Donate card discription") %></p>
+		  <button type="button"  class="btn btn-primary btn-lg button" style="float: right;"><a href=" https://milaap.org/fundraisers/support-buddha-ceo-quantum-foundation?utm_source=whatsapp&utm_medium=thank_you&mlp_referrer_id=3654504" target="_blank" style="color:#ffffff;text-decoration:none"><%= __("Donate") %></a></button>      
       </div>      
     </div>
   </br>
@@ -77,7 +69,7 @@
       <div class="col-md-1">
       </div>
       <div class="col-md-10">
-          You can also do a bank transfer of funds directly into Buddha-CEO Quantum Foundation bank account  to the following  account:
+          <%= __("Donate account discription") %>
       </div>
       <div class="col-md-1">
         </div>
@@ -86,25 +78,32 @@
         <div class="col-md-1">
           </div>
           <div class="col-md-10">
-              Account Name : </br><b>
-BUDDHA CEO QUANTUM FOUNDATION </br>
-A/C NO : 59222031982290 </br>
-Meena Plaza Branch, ITPL ROAD, Bangalore</br>
-IFSC CODE: HDFC0001472 </b></br>
+            <%- __("Donate account detail") %>
           </div>
           <div class="col-md-1">
             </div>
-          </div>
+        </div>
         </br></br>
+        <div class="row" style="padding-top: 10px">
+          <div class="col-md-1">
+            </div>
+            <div class="col-md-10" style="font-weight: 300">
+              <%- __("Donation instruction message") %>
+            </div>
+            <br />
+            <div class="col-md-1">
+              </div>          
+          </div>  
           <div class="row" style="padding-top: 10px">
             <div class="col-md-1">
               </div>
               <div class="col-md-10" style="font-weight: 300">
-                  In case you are transferring money, please do write to us about the transaction details  including your name  and phone number to anushapaladugu2020@gmail.com.
+                <%- __("Donation instruction message2") %>
               </div>
+              <br />
               <div class="col-md-1">
                 </div>          
-    </div>  
+          </div>
   </div>
 </div>
 		
