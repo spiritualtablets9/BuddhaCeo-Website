@@ -36,16 +36,24 @@ router.get("/meditation40d" , function(req, res) {
 router.get("/programs" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/");
 })
-router.get("/kailash" , function(req, res) {
-	res.redirect("https://www.events.buddhaceo.org/event-details/6-weeks-nov");
-})
-
-router.get("/olympus" , function(req, res) {
-	res.redirect("https://www.events.buddhaceo.org/event-details/olympus-a-6-weeks-guided-meditation-program-1");
-})
 
 router.get("/meru" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/master-your-mind-season-2-a-guided-meditation-for-confidence-manifestation-3-weeks");
 })
+
+router.get("/ganga" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/ganga-a-6-weeks-guided-meditation-online-program-2");
+})
+
+router.get("/Atlas" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/master-your-mind-season-3-a-guided-meditation-for-confidence-manifestation-3-weeks");
+})
+
+router.get("/donate" , function(req, res) {
+	res.redirect("https://milaap.org/fundraisers/support-buddha-ceo-quantum-foundation?utm_source=whatsapp&utm_medium=thank_you&mlp_referrer_id=3654504");
+})
+
+
+
 
 module.exports = router;
