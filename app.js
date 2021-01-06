@@ -50,7 +50,7 @@ app.get('/*', function (req, res, next) {
     i18n.setLocale(res, defaultLocale);
   }
   next();
-})
+}) 
 
 app.use(routes);
 app.use(api);
