@@ -50,11 +50,11 @@ app.get('/*', function (req, res, next) {
     i18n.setLocale(res, defaultLocale);
   }
   next();
-})
+}) 
 
 app.use(routes);
 app.use(api);
 
-app.listen(3000, function () {
-  console.log('BudhaCeo app has started on port 3000');
+app.listen(3002, function () {
+  console.log('BudhaCeo app has started on port 3002');
 });
