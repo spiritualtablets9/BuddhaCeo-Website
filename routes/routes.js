@@ -55,6 +55,9 @@ router.get("/donate" , function(req, res) {
 router.get("/indus" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/eye-jan");
 })
+router.get("/coach" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/buddha-ceo-meditation-coach-1");
+})
 
 
 
