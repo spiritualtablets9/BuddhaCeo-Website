@@ -11,8 +11,24 @@ $('.navbar-nav .nav-item a').click(function(){
     $(this).closest('.nav-item').siblings().removeClass('active');
     $(this).closest('.nav-item').addClass('active');
 })
+
+
+// Get the navbar
+var navbar = document.getElementById("navbarSupportedContent");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 var mybutton = document.getElementById("topButton");
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction();myFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
