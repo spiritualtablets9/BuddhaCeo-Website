@@ -23,6 +23,7 @@
 	padding-left: 150px;
 	
   }
+  
 #navigation {
 	box-shadow: none;
 }
@@ -985,6 +986,10 @@ display: none;
 	position: absolute; 
 	top: 205px
 }
+
+/* .donatebtn{
+	margin-right: 100px;
+} */
 @media (max-width:600px) {
 	.cover {
 		bottom: 275px!important;
@@ -997,6 +1002,18 @@ display: none;
 		min-width:  740px;
 		opacity: 0.7;
 	}
+	.social {
+		background-color: #d9d9d9;
+		padding: 10px;
+		padding-left: 0px;
+		
+	  }
+	  .ilindi{
+		  display: none;
+	  }
+	  .donatebtn{
+		  margin-right: 0px;
+	  }
 	.caption-corp {
 		top: 10% !important;
 	}
