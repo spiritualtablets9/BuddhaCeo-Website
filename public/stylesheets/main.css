@@ -5,24 +5,6 @@
     width: 100%;
 }
 
-#navbarSupportedContent {
-	overflow: hidden;
-	/* background-color: #333; */
-  }
-  .sticky {
-
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background: #000000;
-	margin-left: -16px;
-  }
-  .social {
-	background-color: #d9d9d9;
-	padding: 10px;
-	padding-left: 150px;
-	
-  }
 #navigation {
 	box-shadow: none;
 }
@@ -431,10 +413,7 @@ body {
 }
 
 
-.carousel-control-next, .carousel-control-prev {
-	position: absolute; 
-	top: 70px !important;
-} 
+
 
 
 /* work section */
@@ -1003,10 +982,10 @@ display: none;
 	#demo .carousel-item {
 		overflow: hidden;
 	}
- 	/* .carousel-control-next, .carousel-control-prev {
+/* 	.carousel-control-next, .carousel-control-prev {
 		position: absolute; 
-		top: 50px !important;
-	}  */
+		top: -201px !important;
+	} */
 }
 @media (max-width:1300px) {
 	#events {
