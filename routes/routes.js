@@ -41,9 +41,6 @@ router.get("/meru" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/master-your-mind-season-2-a-guided-meditation-for-confidence-manifestation-3-weeks");
 })
 
-router.get("/ganga" , function(req, res) {
-	res.redirect("https://www.events.buddhaceo.org/event-details/ganga-a-6-weeks-guided-meditation-online-program-2");
-})
 
 router.get("/Atlas" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/master-your-mind-season-3-a-guided-meditation-for-confidence-manifestation-3-weeks");
@@ -54,6 +51,10 @@ router.get("/donate" , function(req, res) {
 })
 router.get("/indus" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/eye-jan");
+	
+router.get("/ganga" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/ganga-a-6-weeks-guided-meditation-online-program-2");
+	
 })
 
 
