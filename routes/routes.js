@@ -59,13 +59,4 @@ router.get("/indus" , function(req, res) {
 router.get("/ganga" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/ganga-a-6-weeks-guided-meditation-online-program-2");
 })
-
-
-})
-
-
-
-
-
-
 module.exports = router;
