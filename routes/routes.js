@@ -25,6 +25,10 @@ router.get("/corporateprograms" , function(req, res) {
 	res.render("corporate");
 })
 
+router.get("/meditation" , function(req, res){
+	res.redirect("https://www.events.buddhaceo.org/medintro");
+})
+
 router.get("/contact" , function(req, res) {
 	res.render("contact");
 })

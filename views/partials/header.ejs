@@ -18,10 +18,23 @@
     
 	</head>
 	<body>
-	
+    <div class="social">
+      <div class="socialDiv" style="font-size: 1.8rem">
+        <a href="https://www.facebook.com/BuddhaCEOfoundation" target="_blank"><i class="fab fa-facebook-f fa-fw "></i></a>
+        <!-- <a href="#"><i class="fab fa-twitter fa-fw "></i></a> -->
+        <a href="https://instagram.com/buddhaceo?igshid=194maabpjt143" target="_blank"><i class="fab fa-instagram fa-fw "></i></a>
+        <a href="https://www.linkedin.com/company/buddhaceo" target="_blank"><i class="fab fa-linkedin fa-fw "></i></a>
+        <a href="https://www.youtube.com/buddhaceo" target="_blank"><i class="fab fa-youtube"></i></a>
+        <button type="button" class="btn btn-primary btn-md button waves-effect waves-light donatebtn"> <a href=" https://milaap.org/fundraisers/support-buddha-ceo-quantum-foundation?utm_source=whatsapp&amp;utm_medium=thank_you&amp;mlp_referrer_id=3654504" target="_blank" style="color:#ffffff;text-decoration:none">Donate</a>
+        </button> <div>
+          
+        </div>  
+      </div>
+        
+  </div>
       <a onClick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });" id="topButton"><i class="fas fa-angle-up"></i></a>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-transparent " id="navigation">
-  <a class="navbar-brand" href="#" id="brand"> <img src="/images/Logos/logo.png" style="height: 55px;"> </a>
+  <a class="navbar-brand" href="#" id="brand"> <img src="/images/Logos/logo.png" style="height: 65px;"> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -49,9 +62,13 @@
 		<li class="nav-item" id="ndonate">
         <a class="nav-link" href="/donations"><%= __("Donate") %></a>
       </li>
-		<li class="nav-item ncontact " id="ncontact">
+      <li class="nav-item" id="nmeditation">
+        <a class="nav-link" href="/meditation"><%= __("Meditation") %></a>
+      </li>
+      <li class="nav-item ncontact " id="ncontact">
         <a class="nav-link" href="/contact"><%= __("Contact") %></a>
       </li>
+		
     <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
           <% var currentLocale = localesInfo[locale].typographical_name

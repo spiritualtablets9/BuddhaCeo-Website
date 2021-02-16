@@ -5,6 +5,35 @@
     width: 100%;
 }
 
+.socialDiv > a{
+	color: #ffffff;
+}
+.socialDiv > button {
+	float: right;
+	margin-top: -2px;
+	margin-right: 50px;
+	color: #ffffff;
+	font-size: 0.8rem !important;
+}
+#navbarSupportedContent {
+	overflow: hidden;
+	/* background-color: #333; */
+  }
+  .sticky {
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #000000;
+	margin-left: -16px;
+  }
+  .social {
+	background-color: #828282;
+	padding: 10px;
+	padding-left: 150px;
+	
+  }
+  
 #navigation {
 	box-shadow: none;
 }
@@ -52,6 +81,9 @@
 	background-color: #0771bc
 	
 }
+#nmeditation > .active > a {
+	background-color: #0771bc	
+}
 #ncontact > .active > a {
 	background-color: #0771bc
 	
@@ -70,6 +102,9 @@
 	background-color: rgb(115, 170, 46);
 }
 
+#nmeditation > a:hover {
+	background-color: rgb(7, 113, 188);
+}
 .bnav li a:hover {
 	background-color: #ad63f6;
 	border-radius: 15px;
@@ -413,7 +448,10 @@ body {
 }
 
 
-
+.carousel-control-next, .carousel-control-prev {
+	position: absolute; 
+	top: 70px !important;
+} 
 
 
 /* work section */
@@ -964,6 +1002,10 @@ display: none;
 	position: absolute; 
 	top: 205px
 }
+
+/* .donatebtn{
+	margin-right: 100px;
+} */
 @media (max-width:600px) {
 	.cover {
 		bottom: 275px!important;
@@ -976,16 +1018,28 @@ display: none;
 		min-width:  740px;
 		opacity: 0.7;
 	}
+	.social {
+		background-color: #d9d9d9;
+		padding: 10px;
+		padding-left: 0px;
+		
+	  }
+	  .ilindi{
+		  display: none;
+	  }
+	  .donatebtn{
+		  margin-right: 0px;
+	  }
 	.caption-corp {
 		top: 10% !important;
 	}
 	#demo .carousel-item {
 		overflow: hidden;
 	}
-/* 	.carousel-control-next, .carousel-control-prev {
+ 	/* .carousel-control-next, .carousel-control-prev {
 		position: absolute; 
-		top: -201px !important;
-	} */
+		top: 50px !important;
+	}  */
 }
 @media (max-width:1300px) {
 	#events {
