@@ -41,7 +41,6 @@ router.get("/meru" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/master-your-mind-season-2-a-guided-meditation-for-confidence-manifestation-3-weeks");
 })
 
-
 router.get("/Atlas" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/master-your-mind-season-3-a-guided-meditation-for-confidence-manifestation-3-weeks");
 })
@@ -49,6 +48,7 @@ router.get("/Atlas" , function(req, res) {
 router.get("/donate" , function(req, res) {
 	res.redirect("https://milaap.org/fundraisers/support-buddha-ceo-quantum-foundation?utm_source=whatsapp&utm_medium=thank_you&mlp_referrer_id=3654504");
 })
+
 router.get("/indus" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/eye-jan");
 })
