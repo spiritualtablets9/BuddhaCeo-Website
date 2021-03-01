@@ -28,7 +28,7 @@ function myFunction() {
   }
 }
 var mybutton = document.getElementById("topButton");
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction(),myFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
