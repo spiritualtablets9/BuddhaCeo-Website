@@ -53,7 +53,7 @@ router.get("/indus" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/eye-jan");
 })
 
-router.get("/godavari" , function(req, res) {
+router.get("/godav" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/godavari-akhanda-dhyana-3-week-intensive-guided-meditation");
 })
 
