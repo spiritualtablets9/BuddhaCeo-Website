@@ -60,4 +60,7 @@ router.get("/ganga" , function(req, res) {
 router.get("/godavari" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/godavari-akhanda-dhyana-3-week-intensive-guided-meditation");
 })
+router.get("/congo" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/congo-meditation-for-radiant-health-and-performance");
+})
 module.exports = router;
