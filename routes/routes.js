@@ -63,4 +63,7 @@ router.get("/godavari" , function(req, res) {
 router.get("/congo" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/congo-meditation-for-radiant-health-and-performance");
 })
+router.get("/narmada" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/narmada-meditation-for-radiant-health-and-performance");
+})
 module.exports = router;
