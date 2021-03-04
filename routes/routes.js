@@ -63,7 +63,16 @@ router.get("/godavari" , function(req, res) {
 router.get("/congo" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/congo-meditation-for-radiant-health-and-performance");
 })
-router.get("/narmada" , function(req, res) {
-	res.redirect("https://www.events.buddhaceo.org/event-details/narmada-meditation-for-radiant-health-and-performance");
+router.get("/narmada1" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/narmada-meditation-for-radiant-health-and-performance-11-30-am-ist-12-30-pm-ist");
+})
+router.get("/narmada2" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/narmada-meditation-for-radiant-health-and-performance-09-00-pm-ist-10-00-pm-ist");
+})
+router.get("/Sutlej1" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/sutlej-meditation-for-emotional-intelligence-and-relationships-11-30-am-ist-12-30-pm-ist");
+})
+router.get("/Sutlej2" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/sutlej-meditation-for-emotional-intelligence-and-relationships-09-00-pm-ist-10-00-pm-ist");
 })
 module.exports = router;
