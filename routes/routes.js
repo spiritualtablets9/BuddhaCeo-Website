@@ -75,10 +75,10 @@ router.get("/Sutlej1130" , function(req, res) {
 router.get("/Sutlej9" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/sutlej-meditation-for-emotional-intelligence-and-relationships-09-00-pm-ist-10-00-pm-ist");
 })
-router.get("/boolclub745" , function(req, res) {
+router.get("/bookclub745" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/book-club-07-45am-to-08-45am-ist-mon-tue-wed-fri");
 })
-router.get("/boolclub730" , function(req, res) {
+router.get("/bookclub730" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/book-club-07-30pm-to-08-30pm-ist-mon-tue-wed-fri");
 })
 
