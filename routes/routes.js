@@ -81,5 +81,7 @@ router.get("/bookclub745" , function(req, res) {
 router.get("/bookclub730" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/book-club-07-30pm-to-08-30pm-ist-mon-tue-wed-fri");
 })
-
+router.get("/sptab" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/spiritualtabletscourse");
+})
 module.exports = router;
