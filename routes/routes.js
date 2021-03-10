@@ -82,6 +82,12 @@ router.get("/bookclub730" , function(req, res) {
 	res.redirect("https://www.events.buddhaceo.org/event-details/book-club-07-30pm-to-08-30pm-ist-mon-tue-wed-fri");
 })
 router.get("/sptab" , function(req, res) {
-	res.redirect("https://www.events.buddhaceo.org/event-details/spiritualtabletscourse");
+		res.redirect("https://www.events.buddhaceo.org/event-details/spiritualtabletscourse");
+})
+router.get("/yamuna" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/yamuna");
+})
+router.get("/kaveri" , function(req, res) {
+	res.redirect("https://www.events.buddhaceo.org/event-details/kaveri-3-week-online-guided-meditation-for-graduating-students-and-youth");
 })
 module.exports = router;
